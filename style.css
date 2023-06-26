@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(110deg, rgb(51, 198, 227) 50% , rgb(206, 206, 62) 50%);
+    font-family: 'Libre Baskerville', serif;
+    color: aliceblue;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    text-align: center;
+    border: 1px double;
+    border-radius: 5px;
+    margin-top: 4rem;
+    
+}
+
+p,h2{
+    color: black;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+footer{
+    text-align: right;
+    color: cyan;
+    
+}
+
+.card > img{
+    width: 300px;
+    border-radius: 5px;
+    float: left; 
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.card{
+   width: 45%;
+} 
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+@media (max-width: 700px)
+{
+    .logo{
+        width: 100%;
+    }
+    
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+
+    .card > img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
